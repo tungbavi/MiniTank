@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e2c108b4eaa8b4ba9b8e1dba532e52, type: 3}
+  m_Name: Enemy_2
+  m_EditorClassIdentifier: 
+  characterType: 1
+  characterPrefab: {fileID: 1502186210399330553, guid: 8ee6ad3dc11544d428f7d3aec90abe6f, type: 3}
+  characterIcon: {fileID: 0}
+  characterDamage: 20
+  characterHP: 60
+  characterSpeed: 4
+  characterName: Enemy2
+  charaterPrice: 0
+  currentLevel: 0

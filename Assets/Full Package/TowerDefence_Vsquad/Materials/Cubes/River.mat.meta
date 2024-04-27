@@ -1,0 +1,43 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/_Prefabs/Map Cube/Shop_And_Preview.prefab.meta
+<<<<<<< HEAD
+guid: 5d13a1bb464111344aaa85d3536d4061
+=======
+guid: 1f487a78f028ff44eab7437ce57d082b
+>>>>>>> testfinal
+PrefabImporter:
+  externalObjects: {}
+========
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Duy
+<<<<<<< HEAD:Assets/Scriptable Objects/Tank Test.asset.meta
+<<<<<<<< HEAD:Assets/Scriptable Objects/ListCharacter.asset.meta
+guid: 34b15a9238dceca4189e46ab393b77f0
+========
+guid: 3ee266b68abe61644bc9d5daab17ad4b
+>>>>>>>> afbd448e0c736c7c8d583eb4f755387ba1d5c5af:Assets/Scriptable Objects/Tank Test.asset.meta
+=======
+<<<<<<< HEAD
+>>>>>>> Duy
+=======
+>>>>>>> Duy
+guid: 4cb8f87d94023d84da398d85e019e598
+>>>>>>> d5d3f9cbaba6c120310ee011f0b5edbe6eae9bac:Assets/Full Package/TowerDefence_Vsquad/Materials/Cubes/River.mat.meta
+=======
+<<<<<<<< HEAD:Assets/_Scenes/Battle_Lv2/Material/birck.mat.meta
+guid: 2e30b1f7f8cbd5c4f82db47eda95b246
+========
+guid: 4cb8f87d94023d84da398d85e019e598
+>>>>>>>> origin/Duy:Assets/Full Package/TowerDefence_Vsquad/Materials/Cubes/River.mat.meta
+>>>>>>> origin/Duy
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>>> Duy:Assets/Full Package/TowerDefence_Vsquad/Materials/Cubes/River.mat.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

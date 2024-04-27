@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+guid: e1c66b117f6c03148b32a55c60bbb107
+PrefabImporter:
+=======
+=======
+>>>>>>> Duy
+<<<<<<< HEAD:Assets/_Prefabs/Screens/Canvas_Battle_UI.prefab.meta
+guid: e1c66b117f6c03148b32a55c60bbb107
+PrefabImporter:
+=======
+<<<<<<<< HEAD:Assets/Scriptable Objects/ListCharacter.asset.meta
+guid: 292f803968018104c9e1e1f4d792b1e0
+========
+guid: 1ef86e454c5b4f24a8a42584b87d463b
+>>>>>>>> 0983b4b70aaf05c92040be47917a13e677aa91fc:Assets/Scriptable Objects/Enemy Tank 1.asset.meta
+NativeFormatImporter:
+>>>>>>> Toan:Assets/Scriptable Objects/ListCharacter.asset.meta
+<<<<<<< HEAD
+>>>>>>> Duy
+=======
+>>>>>>> Duy
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

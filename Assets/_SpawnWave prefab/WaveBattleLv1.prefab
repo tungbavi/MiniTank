@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6863968493574150526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7593009579399130263}
+  - component: {fileID: 8511144193151578392}
+  - component: {fileID: 3452756712541027089}
+  - component: {fileID: 6420147413119987012}
+  - component: {fileID: 750956872102723990}
+  m_Layer: 0
+  m_Name: WaveBattleLv1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7593009579399130263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863968493574150526}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8511144193151578392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863968493574150526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca70dc5e83ee30b45b76850f5a54a610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseWave: {fileID: 3452756712541027089}
+  prefabHolder: {fileID: 7593009579399130263}
+--- !u!114 &3452756712541027089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863968493574150526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39188a3857cc96746a60b8cf92e33d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveList:
+  - waveID: 2
+    listSpawnPos:
+    - {x: -2, y: 0, z: 6}
+    - {x: 4, y: 0, z: 6}
+    - {x: 4, y: 0, z: 9}
+    - {x: -2, y: 0, z: 9}
+    listCharacter:
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+  - waveID: 1
+    listSpawnPos:
+    - {x: -2, y: 0, z: 0}
+    - {x: 5, y: 0, z: -2}
+    listCharacter:
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+  - waveID: 3
+    listSpawnPos:
+    - {x: -3, y: 0, z: -5}
+    - {x: 6, y: 0, z: -4}
+    - {x: 3, y: 0, z: -8}
+    - {x: 1, y: 0, z: 6}
+    listCharacter:
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+  - waveID: 4
+    listSpawnPos:
+    - {x: -2, y: 0, z: 3}
+    - {x: 4, y: 0, z: -2}
+    - {x: -2, y: 0, z: -5}
+    - {x: -2, y: 0, z: 9}
+    listCharacter:
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+    - {fileID: 11400000, guid: 2121d2ffcbbf88146989ac5bcbfe2973, type: 2}
+  totalWave: 4
+--- !u!114 &6420147413119987012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863968493574150526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5245291d48588e74495615d2ca444f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &750956872102723990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863968493574150526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a344cf9954758c64db76efd730b50f4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseWave: {fileID: 3452756712541027089}
+  prefabHolder: {fileID: 0}
